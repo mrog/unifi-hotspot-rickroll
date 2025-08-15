@@ -1,0 +1,10 @@
+version: '3'
+services:
+  unifi-hotspot-rickroll:
+    container_name: unifi-hotspot-rickroll
+    build:
+      context: .
+    image: unifi-hotspot-rickroll
+    ports:
+      - "80:8080"
+    restart: "unless-stopped"

@@ -1,0 +1,6 @@
+Add a README.md.
+Explain usage.
+Explain how to ffmpeg to resize the video.
+  ffmpeg -i ngguu_original.mp4 -vf scale="480:-1" ngguu.mp4
+Explain cron to run upgrade script.
+Explain using docker image prune occassionally.  Can be used with -f to skip prompt.
