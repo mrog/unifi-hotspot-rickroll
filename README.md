@@ -36,7 +36,7 @@ This method is good if you want to customize the HTML.  If you just want to run 
 If you're on Linux, consider using a cron job to run `upgrade.sh` periodically so you always have the latest Nginx updates.  If you do this, you'll accumulate old Docker images that should be cleaned up occasionally using `docker image prune`.
 
 ### Docker Hub
-You can use the [mrog1/unifi-hotspot-rickroll](https://hub.docker.com/r/mrog1/unifi-hotspot-rickroll) image from Docker Hub.  Make sure you map port 80 to container port 8080.  The simplest way to start it is to run `docker run -d -p 80:8080 mrog1/unifi-hotspot-rickroll`.
+You can use the [mrog1/unifi-hotspot-rickroll](https://hub.docker.com/r/mrog1/unifi-hotspot-rickroll) image from Docker Hub.  Make sure you map port 80 to container port 8080.  The simplest way is to run `docker run -d -p 80:8080 mrog1/unifi-hotspot-rickroll`.
 
 ## UniFi Configuration
 In your hotspot landing page settings:
