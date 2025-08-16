@@ -32,7 +32,9 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ vars.DOCKER_USERNAME }}/${{ github.event.repository.name }}:latest
+          tags: |
+            ${{ vars.DOCKER_USERNAME }}/${{ github.event.repository.name }}:latest
+            ${{ vars.DOCKER_USERNAME }}/${{ github.event.repository.name }}:${{ github.ref_name }}
           annotations: ${{ steps.meta.outputs.annotations }}
           provenance: true
           sbom: true
