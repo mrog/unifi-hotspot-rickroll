@@ -13,14 +13,14 @@ updates:
     schedule:
       interval: "daily"
     # Change to match your branch name
-    target-branch: "develop"
+    target-branch: "main"
   
   - package-ecosystem: "github-actions"
     directory: "/" 
     schedule:
       interval: "weekly"
     # Change to match your branch name
-    target-branch: "develop"
+    target-branch: "main"
     # Groups multiple action updates into single PR if all are minor or patch
     groups:
       github-action-dependencies:
