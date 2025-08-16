@@ -1,6 +1,6 @@
 # unifi-hotspot-rickroll
 
-A Unifi captive portal with a Rickroll
+A UniFi captive portal with a Rickroll
 
 ## Overview
 UniFi access points provide great power.  With great power comes great ~~recreational opportunities~~ responsibility.  Don't you want to use that power to ~~flex~~ make the world better?  Free Wi-Fi makes the world better, right?  Even if the free Wi-Fi doesn't let people use the Internet, it's still technically free Wi-Fi.  So, *technically*, you can make the world better by Rickrolling your neighbors.
@@ -12,12 +12,12 @@ Why do through the trouble of adding a fake login?  It's important that the user
 Obviously, the portal doesn't actually authenticate users.  It's just not ~~a tool for grown-ups~~ that sophisticated.  The portal is just a simple static web page with a path that Unifi expects.
 
 ## Prerequisites
-You need a Unifi access point.  But if you didn't have one of those, you probably wouldn't be reading these instructions.
+You need a UniFi access point.  But if you didn't have one of those, you probably wouldn't be reading these instructions.
 
 You need a server on your LAN that:
 - has Docker.
 - has a static IP address.
-- is reachable from your Unifi gateway.
+- is reachable from your UniFi access point.
 
 ## Installation
 You have a couple of installation options.  Once the service is running, go to the Unifi Configuration section.
@@ -36,7 +36,7 @@ If you're on Linux, consider using a cron job to run `upgrade.sh` periodically s
 ### Docker Hub
 You can use the [mrog1/unifi-hotspot-rickroll](https://hub.docker.com/r/mrog1/unifi-hotspot-rickroll) image from Docker Hub.  Make sure you map port 80 to container port 8080.  The simplest way to start it is to run `docker run -d -p 80:8080 mrog1/unifi-hotspot-rickroll`.
 
-## Unifi Configuration
+## UniFi Configuration
 In your hotspot landing page settings:
 - Authentication tab:
   - Select "External Portal Server" and enter your server's IP address.
