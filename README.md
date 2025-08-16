@@ -3,7 +3,7 @@
 A Unifi captive portal with a Rickroll
 
 ## Overview
-UniFi access points provide great power.  With great power comes great ~~recreational opportunities~~ responsibility.  Don't you want to use that power to ~~flex~~ make the world better?  Free Wi-Fi makes the world better, right?  Even if the free Wi-Fi doesn't let people use the Internet, it's still technically free Wi-Fi.  So, technically, you can make the world better by Rickrolling your neighbors.
+UniFi access points provide great power.  With great power comes great ~~recreational opportunities~~ responsibility.  Don't you want to use that power to ~~flex~~ make the world better?  Free Wi-Fi makes the world better, right?  Even if the free Wi-Fi doesn't let people use the Internet, it's still technically free Wi-Fi.  So, *technically*, you can make the world better by Rickrolling your neighbors.
 
 This project is a self-hosted captive portal based on [this awesome project](https://github.com/modem7/docker-rickroll).  It uses Nginx to host a static website with a fake login screen.  When the user clicks the button to log in, they get a special welcome video.
 
