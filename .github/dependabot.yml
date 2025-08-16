@@ -1,0 +1,29 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+# Customizations taken from https://www.codeslikeaduck.com/posts/dockerfilegithubaction
+
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    # Change if your Dockerfile is not stored in repository root
+    directory: "/" 
+    schedule:
+      interval: "daily"
+    # Change to match your branch name
+    target-branch: "develop"
+  
+  - package-ecosystem: "github-actions"
+    directory: "/" 
+    schedule:
+      interval: "weekly"
+    # Change to match your branch name
+    target-branch: "develop"
+    # Groups multiple action updates into single PR if all are minor or patch
+    groups:
+      github-action-dependencies:
+        update-types:
+          - "minor"
+          - "patch"
