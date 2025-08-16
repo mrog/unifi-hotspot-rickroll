@@ -15,9 +15,9 @@ Obviously, the portal doesn't actually authenticate users.  It's just not ~~a to
 You need a UniFi access point.  But if you didn't have one of those, you probably wouldn't be reading these instructions.
 
 You need a server on your LAN that:
-- has Docker.
+- can run Docker containers.
 - has a static IP address.
-- is reachable from your UniFi access point.
+- is reachable from your UniFi access point(s).
 
 ## Installation
 You have a couple of installation options.  Once the service is running, go to the Unifi Configuration section.
