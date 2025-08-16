@@ -12,7 +12,7 @@ Why do through the trouble of adding a fake login?  It's important that the user
 Obviously, the portal doesn't actually authenticate users.  It's just not ~~a tool for grown-ups~~ that sophisticated.  The portal is just a simple static web page with a path that Unifi expects.
 
 ## Prerequisites
-You need a UniFi access point.  But if you didn't have one of those, you probably wouldn't be reading these instructions.
+You need at least one UniFi access point.  If you didn't have one of those, you probably wouldn't be reading these instructions.
 
 You need a server on your LAN that:
 - can run Docker containers.
