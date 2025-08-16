@@ -3,16 +3,16 @@
 A Unifi captive portal with a Rickroll
 
 ## Overview
-With great power comes great ~~recreational opportunities~~ responsibility.  Your Unifi gateway gives you great power.  If you aren't using the hotspot feature, it's time to use that power ~~for good~~ to ~~prank~~ have fun with your neighbors.
+UniFi access points provide great power.  With great power comes great ~~recreational opportunities~~ responsibility.  Don't you want to use that power to ~~flex~~ make the world better?  Free Wi-Fi makes the world better, right?  Even if the free Wi-Fi doesn't let people use the Internet, it's still technically free Wi-Fi.  So, technically, you can make the world better by Rickrolling your neighbors.
 
-This project is a self-hosted captive portal based on [this awesome project](https://github.com/modem7/docker-rickroll).  It uses Nginx to host a static website with a fake login screen.  When the user clicks the button to log in, they get a full screen welcome video.
+This project is a self-hosted captive portal based on [this awesome project](https://github.com/modem7/docker-rickroll).  It uses Nginx to host a static website with a fake login screen.  When the user clicks the button to log in, they get a special welcome video.
 
-It's important that the user clicks something on the page before the video plays.  Without a click, some browsers will make the video play without sound.
+Why do through the trouble of adding a fake login?  It's important that the user clicks something on the page before the video plays.  Without a click, many browsers will refuse to play the video with sound.
 
-Obviously, the portal does not actually authenticate users.  It's just not that ~~boring~~ sophisticated.  The portal is just a simple static web page at a path that Unifi expects.
+Obviously, the portal doesn't actually authenticate users.  It's just not ~~a tool for grown-ups~~ that sophisticated.  The portal is just a simple static web page with a path that Unifi expects.
 
 ## Prerequisites
-You need a Unifi gateway.  But if you didn't have one of those, you probably wouldn't be reading these instructions.
+You need a Unifi access point.  But if you didn't have one of those, you probably wouldn't be reading these instructions.
 
 You need a server on your LAN that:
 - has Docker.
