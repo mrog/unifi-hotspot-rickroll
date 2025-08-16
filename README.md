@@ -43,3 +43,4 @@ In your hotspot landing page settings:
 - Settings tab:
   - Select "Show Landing Page"
   - Select "HTTPs Redirection Support"
+  - The other checkboxes in this section should be unselected.
