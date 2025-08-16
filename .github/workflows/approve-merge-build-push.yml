@@ -88,3 +88,4 @@ jobs:
           push: true
           tags: |
             mrog1/unifi-hotspot-rickroll:${{ steps.semvers.outputs.patch }}
+
