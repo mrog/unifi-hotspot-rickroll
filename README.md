@@ -30,7 +30,7 @@ This method is good if you want to customize the HTML.  If you just want to run 
 1. If you're on Linux, you can run these scripts:
    - `./start.sh` builds and starts the service.
    - `./stop.sh` stops the service.
-   - `./upgrade.sh` rebuilds the service, then restarts it if it was running.
+   - `./upgrade.sh` rebuilds the service, then restarts it if it's running.
    - `./show_logs.sh` shows the service logs.
 
 If you're on Linux, consider using a cron job to run `upgrade.sh` periodically so you always have the latest Nginx updates.  If you do this, you'll accumulate old Docker images that should be cleaned up occasionally using `docker image prune`.
