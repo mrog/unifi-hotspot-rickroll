@@ -23,6 +23,8 @@ You need a server on your LAN that:
 You have a couple of installation options.  Once the service is running, go to the Unifi Configuration section.
 
 ### Clone Source and Run
+This method is good if you want to customize the HTML.  If you just want to run it as-is, go to the Docket Hub method below.
+
 1. Run `git clone https://github.com/mrog/unifi-hotspot-rickroll.git` to get the source code.
 1. `cd unifi-hotspot-rickroll`
 1. If you're on Linux, you can run these scripts:
