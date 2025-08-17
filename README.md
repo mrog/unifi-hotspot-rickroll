@@ -9,7 +9,7 @@ This project is a self-hosted captive portal based on [this awesome project](htt
 
 Why do through the trouble of adding a fake login?  It's important that the user clicks something on the page before the video plays.  Without a click, many browsers will refuse to play the video with sound.
 
-Obviously, the portal doesn't actually authenticate users.  It's just not ~~a tool for grown-ups~~ that sophisticated.  The portal is just a simple static web page with a path that Unifi expects.
+Obviously, the portal doesn't actually authenticate users.  It isn't ~~a tool for grown-ups~~ that sophisticated.  The portal is just a simple static web page with a path that Unifi expects.
 
 ## Prerequisites
 You need at least one UniFi access point.  If you didn't have one of those, you probably wouldn't be reading these instructions.
