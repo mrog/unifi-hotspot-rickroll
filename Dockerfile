@@ -3,7 +3,7 @@
 # This is the base image used by modem7/docker-rickroll.  It's included here so
 # Dependabot will update this file when a new version of the nginx image is
 # released.  That file update triggers a new release of this project.
-FROM nginxinc/nginx-unprivileged:1.29.1-alpine
+FROM nginxinc/nginx-unprivileged:1.29.3-alpine
 
 # Here's the real base image we want to use.  The only tag it has is latest, so dependabot can't detect new versions.
 FROM modem7/docker-rickroll
